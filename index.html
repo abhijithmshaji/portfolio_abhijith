@@ -23,6 +23,9 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item mx-2">
+                <a class="nav-link btn btn-outline-danger"  href="images/Resume_Abhijith_M_Shaji.pdf" download="Resume_Abijith_M_Shaji">RESUME</a>
+              </li>
+              <li class="nav-item mx-2">
                 <a class="nav-link" href="#skills">SKILLS</a>
               </li>
               <li class="nav-item mx-2">
@@ -42,10 +45,10 @@
       </nav>
     </header>
 
-    <!-- Hero or Showcase Section -->
+    <!--Showcase Section -->
     <section class="hero d-flex flex-column align-items-center justify-content-center">
       <div class="text-center">
-        <h1 class="h1 text-white fw-medium fst-italic">Abhijith M Shaji</h1>
+        <h1 class="h1 text-light fw-medium fst-italic">Abhijith M Shaji</h1>
         <h2 class="display-3 text-white fw-bold">"Angular Alchemist: Transforming Ideas into Interactive Web Wonders"</h2>
         <a href="#skills" class="btn btn-lg fs-6 fw-medium mt-5 btn-primary p-3">TELL ME MORE</a>
       </div>
@@ -97,7 +100,7 @@
           </div>
           <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
             <div class="card mt-4">
-              <img src="images/Capture.PNG" class="img-fluid" alt="portfolio-img">
+              <a href="https://abhijithmshaji.github.io/MEARN/"> <img src="images/Capture.PNG" class="img-fluid" alt="portfolio-img"></a>
               <div class="card-body text-center">
                 <h6 class="card-title">Food Gallery </h6>
                 <p class="card-text text-secondary">HTML/CSS/Bootstrap</p>
@@ -347,4 +350,12 @@ Kerala</li>
      <!-- Bootstrap script link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
+  <script>
+    const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+  </script>
 </html>
